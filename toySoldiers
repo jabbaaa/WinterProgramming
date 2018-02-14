@@ -1,0 +1,51 @@
+public class toySoldiers extends Turtle{
+  private int health;
+  private int damage;
+  
+  public toySoldiers(int x, int y, ModelDisplay modelDisplayer, int toyHealth, int toyDamage){
+    super(x,y,modelDisplayer);
+    health = toyHealth;
+    damage = toyDamage;
+  }
+  
+  
+
+  
+  public static void main(String[] args){
+    World earth = new World();
+    String address = FileChooser.getMediaPath("Drone.jpg");
+    Picture drone = new Picture(address);
+    drone.
+    
+    toySoldiers first = new toySoldiers(280, 480, earth, 100, 10);
+    toySoldiers second = new toySoldiers(320, 480, earth, 100, 10);
+    toySoldiers third = new toySoldiers(360, 480, earth, 100, 10);
+    
+    first.hide();
+    first.penUp();
+    second.hide();
+    second.penUp();
+    third.hide();
+    third.penUp();
+   
+    
+   for(int i=0; i<40; i++){
+   earth.clearBackground(); 
+     try{
+      Thread.sleep(100);
+    } catch(Exception e) {
+      System.out.println(e.getMessage());
+    }
+    
+    first.drop(drone);
+    second.drop(drone);
+    third.drop(drone);
+     
+      first.forward(10);
+      second.forward(10);
+      third.forward(10);
+   }
+    
+  }
+  
+}
