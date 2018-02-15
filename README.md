@@ -1,6 +1,6 @@
 Dragon - Test lets see what some of these options do.
 
-Does anyone have an idea for the theme for the enemies? (monsters/militia/alien/fantasy/horror..Chuck Norris...ect)\n
+Does anyone have an idea for the theme for the enemies? (monsters/militia/alien/fantasy/horror..Chuck Norris...ect)<\n>
 We have a wall, if they break the wall is it instant lose? \n
 Or do they still need to reach an objective on the other side?
 
