@@ -12,7 +12,7 @@ public class toySoldiers extends Turtle{
 
   
   public static void main(String[] args){
-    World earth = new World();
+    World earth = new World(1024,768);
     String address = FileChooser.getMediaPath("Drone.jpg");
     Picture drone = new Picture(address);
     drone.
