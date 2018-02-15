@@ -9,3 +9,5 @@ We should plan for the screen size to be atleast 1024x768, We can do larger if y
 Recommmended: Edit this file to see it wrapped/formatted correctly (-.-)
 
 Also, the file history that github keeps is sweet... look back on this readme now lol...
+
+Michael: yeah this is pretty neat. 
