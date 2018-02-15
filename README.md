@@ -7,3 +7,5 @@ Or do they still need to reach an objective on the other side?
 We should plan for the screen size to be atleast 1024x768, We can do larger if you guys want. I couldn't get the picture.scale function working right on my drone.png. So I scaled it down in GIMP and added a copy here.
 
 Recommmended: Edit this file to see it wrapped/formatted correctly (-.-)
+
+Also, the file history that github keeps is sweet... look back on this readme now lol...
