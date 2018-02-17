@@ -20,7 +20,7 @@ Dragon: Checked it out. Nice work, its looking good. I am under the weather toda
 Like having a dedicated window class that is in-charge of creating the canvas/world/window and sorting draw of the background, ui, and foreground. To layer things correctly. 
 
 Then have it use  toySoldier.getPic() with a for-each loop to pull images into the window class. (And Tower.getPic()).
-Otherwise we may have issues with layering. :)
+Otherwise we may have issues with layering. :) (We could probably put them into an arrayList for ease of use. Allowing for an easier time making the for-each loop in window)
 
 I was thinking about a damagecalc class but I think the damages are basic enough to handle them in the units. 
 
