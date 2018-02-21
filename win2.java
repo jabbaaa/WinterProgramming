@@ -12,6 +12,8 @@ import javax.swing.JPanel;
 /**
  *
  * @author Dragon
+ * Since this is working code, I wont change it at the moment, extends Jpanel... is an alternative to new Jpanel. It is more confusing to
+ * use it like this, for someone who hasn't experience with JPanel or JFrames.
  */
 public class win2 extends JPanel {
     
@@ -56,7 +58,7 @@ public class win2 extends JPanel {
         
     }
         
-    public win2() throws IOException {
+    public win2() throws IOException { //win2 initializer
 File f = new File ("C:\\Users\\Dragon\\Documents\\NetBeansProjects\\Classwork\\src\\Map1.png");
 img = new BufferedImage(1024,768, BufferedImage.TYPE_INT_ARGB);
 img = ImageIO.read(f);
